@@ -1,5 +1,7 @@
 //Program to return the sum of all elements in the array.
 #include <iostream>
+#include "Array_of_Object.h"
+
 using namespace std;
 
 //function to make the array
@@ -7,7 +9,8 @@ void sum();
 
 int main()
 {
-    sum();
+    Array objects;
+    objects;
     return 0;
 }
 
