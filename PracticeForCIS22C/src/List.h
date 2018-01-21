@@ -51,10 +51,11 @@ public:
 	void removeStart();
 	void removeStop();
 	listdata getIterator();
+	void pointIterator();
 	listdata advangeIterator();
 	int getSize();
 	bool off_end();
-	void print();
+	void print() const;
 
 };
 template <class listdata>
@@ -62,6 +63,13 @@ listdata List<listdata>::getIterator()
 {
 	assert(!off_end());
 	return iterator->data;
+}
+
+template <class listdata>
+void List<listdata>::pointIterator()
+{
+	assert(!IsEmpty());
+	iterator = start;
 }
 template <class listdata>
 List<listdata>::List()
@@ -180,13 +188,15 @@ void List<listdata>::removeStop()
 }
 
 template <class listdata>
-void List<listdata>::print()
+void List<listdata>::print() const
 {
 	Node* temp = start;
-	while(temp->linknext != NULL)
+	while (temp != NULL)
 	{
+		//cout << temp->data << endl;
 		cout << temp->data << " ";
 		temp = temp->linknext;
 	}
+	cout << endl;
 }
 #endif /* LIST_H_ */
