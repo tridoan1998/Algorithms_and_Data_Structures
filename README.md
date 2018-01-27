@@ -7,3 +7,4 @@ https://github.com/karan/Projects#networking
 https://www.tutorialcup.com
 http://www.java67.com/
 https://pythontips.com/2016/07/11/400-free-resources-for-devops-sysadmins/#more-870
+https://web.stanford.edu/class/cs106b/homework.shtml
