@@ -15,4 +15,4 @@ https://web.stanford.edu/class/cs106b/homework.shtml
 https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists
 https://www.geeksforgeeks.org/top-20-linked-list-interview-question/
 https://www.geeksforgeeks.org/practice-questions-for-linked-list-and-recursion/
-
+http://www.sparknotes.com/cs/
