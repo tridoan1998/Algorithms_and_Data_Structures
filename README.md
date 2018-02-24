@@ -20,3 +20,4 @@ https://www.pythoncentral.io/
 https://www.programiz.com/dsa/selection-sort
 https://cs61a.org
 https://inst.eecs.berkeley.edu/~cs61b/fa17/
+https://www.youtube.com/watch?v=FBmqNKQ9ACs  
