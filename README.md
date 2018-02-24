@@ -21,3 +21,5 @@ https://www.programiz.com/dsa/selection-sort
 https://cs61a.org
 https://inst.eecs.berkeley.edu/~cs61b/fa17/
 https://www.youtube.com/watch?v=FBmqNKQ9ACs  
+http://aksitha.com/CCNA/CCNA%20Routing%20and%20Switching%20Study%20Guide%20-%20Lammle,%20Todd.pdf
+https://docs.python.org/3.8/library/index.html
