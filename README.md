@@ -23,3 +23,4 @@ https://inst.eecs.berkeley.edu/~cs61b/fa17/
 https://www.youtube.com/watch?v=FBmqNKQ9ACs  
 http://aksitha.com/CCNA/CCNA%20Routing%20and%20Switching%20Study%20Guide%20-%20Lammle,%20Todd.pdf
 https://docs.python.org/3.8/library/index.html
+https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
