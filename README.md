@@ -26,3 +26,9 @@ https://docs.python.org/3.8/library/index.html
 https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 http://matt.might.net/articles/what-cs-majors-should-know/
 https://www.devdungeon.com/
+https://www.tutorialspoint.com/cplusplus/cpp_pointer_to_class.htm
+https://www.cprogramming.com/tutorial.html
+https://anandology.com/python-practice-book/object_oriented_programming.html
+https://pythontips.com
+http://voyager.deanza.edu/~bentley/
+http://voyager.deanza.edu/~oldham/index.html
