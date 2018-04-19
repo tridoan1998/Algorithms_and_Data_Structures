@@ -32,3 +32,4 @@ https://anandology.com/python-practice-book/object_oriented_programming.html
 https://pythontips.com
 http://voyager.deanza.edu/~bentley/
 http://voyager.deanza.edu/~oldham/index.html
+http://wiki.freepascal.org/Lazarus_Application_Gallery
