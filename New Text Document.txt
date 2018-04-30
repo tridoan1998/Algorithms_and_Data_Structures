@@ -1,0 +1,59 @@
+// stdafx.h : include file for standard system include files,
+// or project specific include files that are used frequently, but
+// are changed infrequently
+//
+
+#pragma once
+
+#include "targetver.h"
+
+#include <stdio.h>
+#include <tchar.h>
+
+
+template <listdata data>
+class BST
+{
+private:
+	listdata data;
+	Node* root;
+	Node* linknext; 
+	Node* linkprevious;
+	struct Node(listdata ndata)
+	{
+		data = ndata;
+		linkprevious = null;
+		linknext = null;
+	}
+	int size;
+	int height;
+
+	void insert(Node root, listdata data);
+	void remove(Node root, listdata data);
+public:
+	void insert(listdata data);
+	void remove(listdata data);
+};
+
+template <listdata data>
+void BST::insert(data)
+{
+	if (data == Node->data)
+		return;
+	else if (data > Node->data)
+		if (Node->righchild == null)
+			return Node->rightchild = new Node(data);
+		else 
+			return 
+	insert(Node, )
+
+}
+
+template <listdata data>
+void BST::remove(data)
+{
+
+
+}
+
+// TODO: reference additional headers your program requires here
