@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : Ass2Cis22B.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Author      : Tri Doan
+// Version     : n+1
+// Copyright   : All rights
+// Description : Assisgnment for CIS 22B class
 //============================================================================
 
 #include <iostream>
@@ -12,9 +12,13 @@
 
 using namespace std;
 
+void bubblesort(string array1[], string array2[], char alphabet1[], char alphabet2[], int counter1, int counter2);
 
+void searchkeywords(string array1[], string array2[], char alphabet1[], char alphabet2[], int counter1, int counter2);
 
-void bubblesort(string array1[], string array2[], int counter1, int counter2);
+int binarysearch(int arraytest[], int low, int high, int element);
+
+int linearsearch(int array[], int SIZE, int element);
 
 int main() {
 	//set counter to check how mant elements in the file
@@ -78,14 +82,11 @@ int main() {
 		cout <<"Error!";
 	}
 
-
-
 	//Print out elements in array1 to check if correct
 	//for (int i = 0; i < counter1; i++)
 	//{
 	//	cout << array1[i] <<endl;
 	//}
-
 
 	//open file 2 and input all elements into the array
 	ifstream inputfile4;
@@ -112,9 +113,18 @@ int main() {
 	//	cout << array2[i] << endl;
 	//}
 
+	//create two empty array type char
+	char alphabet1[counter1];
+	char alphabet2[counter2];
 
-	bubblesort(array1, array2, counter1, counter2);
+	//bubblesort(array1, array2, alphabet1, alphabet2, counter1, counter2);
 
+	//searchkeywords(array1, array2, alphabet1, alphabet2, counter1, counter2);
+
+
+	int S = 3;
+	int a[3] = {1, 2, 3};
+	cout << "Index: " << linearsearch(a, S, 3);
 	return 0;
 }
 
@@ -125,12 +135,8 @@ int main() {
  * Arguments: string array1, string array2, counter1, and counter2
  * create 2 chars arrays, sort it using bubble sort and sort it with the string array as well.
  */
-void bubblesort(string array1[], string array2[], int counter1, int counter2)
+void bubblesort(string array1[], string array2[], char alphabet1[], char alphabet2[], int counter1, int counter2)
 {
-	//create two empty array type char
-	char alphabet1[counter1];
-	char alphabet2[counter2];
-
 
 	//insert every first word in array1 into char array
 	for (int i = 0; i < counter1; i++)
@@ -210,16 +216,63 @@ void bubblesort(string array1[], string array2[], int counter1, int counter2)
 	}
 
 	//print out to the console to check if array1 already store the words sorted or not
-	for (int i = 0; i < counter1;i++)
-	{
-		cout << i+1 << ": " << array1[i] << endl;
-	}
+	//for (int i = 0; i < counter1;i++)
+	//{
+		//cout << i+1 << ": " << array1[i] << endl;
+	//}
 
 	//print out to the console to check if array2 already store the words sorted or not
-	for (int i = 0; i < counter2;i++)
-	{
-		cout << i+1 << ": " << array2[i] << endl;
-	}
+	//for (int i = 0; i < counter2;i++)
+	//{
+		//cout << i+1 << ": " << array2[i] << endl;
+	//}
 
 	return;
+}
+
+//search to see what elements in array2 are in array1 and which one are not
+void searchkeywords(string array1[], string array2[], char alphabet1[], char alphabet2[], int counter1, int counter2)
+{
+
+
+}
+
+
+
+int binarysearch(int arraytest[], int low, int high, int element)
+{
+	if(low > high)
+	{
+		return -1;
+	}
+	int mid = low + (high-low)/2;
+	if(element == arraytest[mid])
+	{
+		return mid;
+	}
+	else if(element < arraytest[mid])
+	{
+		return binarysearch(arraytest, low, mid-1, element);
+	}
+	else
+	{
+		return binarysearch(arraytest, mid+1, high, element);
+	}
+	return 1000;
+}
+
+int linearsearch(int array[], int SIZE, int element)
+{
+	for(int i = 0; i < SIZE; i++)
+	{
+		if(element == array[i])
+		{
+			return i+1;
+		}
+		else
+		{
+			continue;
+		}
+	}
+	return -1;
 }
