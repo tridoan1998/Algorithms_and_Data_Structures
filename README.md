@@ -34,3 +34,4 @@ http://voyager.deanza.edu/~bentley/
 http://voyager.deanza.edu/~oldham/index.html
 http://wiki.freepascal.org/Lazarus_Application_Gallery
 http://www.m5zn.com/newuploads/2014/06/30/pdf/m5zn_082644c04a97cdd.pdf   ***
+https://whatis.techtarget.com/
